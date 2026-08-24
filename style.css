@@ -67,4 +67,38 @@ body {
 
 .main-content {
   background: beige;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-section {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.right-sidebar {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.announcements {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.trending {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  gap: 10px;
 }
