@@ -187,15 +187,31 @@ body {
   padding: 25px;
   border-left: 6px solid #f0b429;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
 }
 
 .project-card h3 {
   font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .project-card p {
   color: #64748b;
   line-height: 1.5;
+  font-size: 14px;
+}
+
+.project-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+}
+.project-actions img {
+  width: 22px;
+  height: 22px;
 }
 
 .right-sidebar {
